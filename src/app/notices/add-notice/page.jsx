@@ -10,9 +10,9 @@ export default function page() {
       <hr className="w-full mt-2" />
       <form className="mt-6 px-8 ">
         <h3 className="ml-3 text-xl">Title</h3>
-        <input type="text" className="border rounded-[8px] w-full h-8 " />
+        <input type="text" className="border rounded-[8px] w-full h-8 p-3" />
         <h3 className="ml-3 text-xl mt-6">Content</h3>
-        <input type="text" className="border rounded-[8px] w-full h-40 " />
+        <textarea type="text" className="border rounded-[8px] w-full h-40  p-3" />
       </form>
       <div className="flex justify-end text-xl gap-3 px-8 p-3 mr-2 ">
         <BiEdit />

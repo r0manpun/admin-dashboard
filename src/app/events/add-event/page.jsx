@@ -10,9 +10,9 @@ export default function page() {
       <hr className="w-full mt-2" />
       <form className="my-6 px-8 ">
         <h3 className="ml-3 text-xl">Title</h3>
-        <input type="text" className="border rounded-[8px] w-full h-8 " />
+        <input type="text" className="border rounded-[8px] w-full h-8 p-3" />
         <h3 className="ml-3 text-xl mt-6">Content</h3>
-        <input type="text" className="border rounded-[8px] w-full h-40 " />
+        <textarea type="text" className="border rounded-[8px] w-full h-40 p-3" />
       </form>
       <div className="border w-[25%] h-56 mx-auto rounded-[15px] my-7">
         <div className="flex h-full justify-center items-center gap-9">
