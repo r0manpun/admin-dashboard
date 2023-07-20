@@ -14,6 +14,7 @@ export default function page() {
         <h3 className="ml-3 text-xl mt-6">Content</h3>
         <textarea type="text" className="border rounded-[8px] w-full h-40 p-3" />
       </form>
+      {/* Image upload */}
       <div className="border w-[25%] h-56 mx-auto rounded-[15px] my-7">
         <div className="flex h-full justify-center items-center gap-9">
           <BsImageFill />

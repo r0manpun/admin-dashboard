@@ -23,6 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/layout.jsx", "src/app/components/Header.jsx", "src/app/components/Sidebar.jsx", "src/app/page.jsx", "src/app/notices/page.jsx", "src/app/events/page.jsx", "src/app/events/add-event/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/layout.jsx", "src/app/components/Header.jsx", "src/app/components/Sidebar.jsx", "src/app/page.jsx", "src/app/notices/page.jsx", "src/app/events/page.jsx", "src/app/events/add-event/page.jsx", "src/app/contacts/page.jsx"],
   "exclude": ["node_modules"]
 }
